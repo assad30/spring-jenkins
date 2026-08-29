@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringJenkinsApplication {
 
-	publicc static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
+	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
 
 	@PostConstruct
 	public void init(){
