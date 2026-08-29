@@ -2,6 +2,7 @@ package com.learning.jenkins.api;
 
 
 
+import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +15,7 @@ public class SpringJenkinsApplication {
 
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
 
+	@PostConstruct
 	public void init(){
 		logger.info("Application initialized ....");
 	}
